@@ -40,12 +40,20 @@ h6 {
 .card-header {
     background-color: #111111;
     color: aliceblue;
+    text-align: center;
+}
+
+p {
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
 
 .card {
-    background-color: #4e4e4e;
-    border-width: 2px;
+    background-color: #4e4e4e00;
+    border-width: 0px;
     align-self: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .card-body {
@@ -53,16 +61,30 @@ h6 {
     color: rgb(6, 135, 255);
 }
 
-.embed {
-    position: absolute;
+#embed {
+    position: relative;
     align-self: center;
+    align-items: center;
+    text-align: center;
 }
 
 .embed-title {
     color: aliceblue;
     position: relative;
     padding-left: 0%;
-    padding-top: 5%;
-    max-width: 290px;
+    padding-top: 2%;
+    max-width: 100%;
     text-align: center;
+}
+
+#video {
+    width: 100%;
+    height: 50vh;
+}
+
+#iframe {
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
 }

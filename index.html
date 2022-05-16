@@ -19,7 +19,7 @@
                 <nav class="navbar navbar-dark bg-#111111">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
-                            <img src="image/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top"> ProjectOne
+                            <img src="image/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top"> Minhoca Feliz
                         </a>
                     </div>
                 </nav>
@@ -39,15 +39,17 @@
                 </div>
                 <div class="card-body">
                     <blockquote class="blockquote mb-1">
-                        <p>Local onde serão exibidos os valores arduino</p>
+                        <p id="Luminosidade">Local onde serão mostrados os valores do arduino!</p>
+                        <p id="Temperatura"></p>
+                        <p id="Umidade"></p>
                         <footer class="blockquote-footer">Estes são os valores retornados do seu arduino!</footer>
                     </blockquote>
                 </div>
             </div>
             <div class="embed" id="embed">
                 <h2 class="embed-title">PARA QUE SERVEM AS MINHOCAS?</h2>
-                <div class="embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FSC2zH0khuw"></iframe>
+                <div class="embed-responsive-16by9" id="video">
+                    <iframe class="embed-responsive-item" id="iframe" src="https://www.youtube.com/embed/FSC2zH0khuw"></iframe>
                 </div>
             </div>
 
@@ -56,6 +58,7 @@
             <h6></h6>
         </div>
     </div>
+    <script src="script/index.js"></script>
 </body>
 
 </html>
